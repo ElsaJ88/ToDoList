@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+/* Global */
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  color: rgb(75, 118, 193);
+}
+
+header {
+  font-size: larger;
+}
+
+input {
+  font-family: "Comfortaa", cursive;
+}
+
+/* New Taks */
+
+.inputtask {
+  height: 25px;
+  width: 300px;
+  padding: 5px;
+  margin: 3px 0;
+  border: 4px solid rgb(75, 118, 193);
+  border-radius: 3px;
+}
+
+.addtaskbtn {
+  padding: 8px;
+  width: 90px;
+  margin: 7px 0;
+  background-color: rgb(75, 118, 193);
+  color: white;
+  border: 5px solid rgb(75, 118, 193);
+  border-radius: 5px;
+}
+
+.addtaskbtn:hover {
+  transform: scale(1.05);
+}
+
+/* To Do List */
+
+.todolist-item {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1.5px solid rgb(75, 118, 193);
+  border-radius: 2px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  border: 3px solid rgb(75, 118, 193);
+  background-color: transparent;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.checkbox:checked {
+  appearance: checkbox;
+}
+
+input[class="change-input done"] {
+  text-decoration: line-through;
+}
+
+.change-input {
+  height: 25px;
+  width: 300px;
+  border: 0;
+}
+
+.fa-trash-can {
+  color: rgb(75, 118, 193);
+  background-color: transparent;
+  border: transparent;
+  font-size: 120%;
+  justify-content: flex-end;
+}
+.fa-trash-can:hover,
+.checkbox:hover {
+  transform: scale(1.1);
+}

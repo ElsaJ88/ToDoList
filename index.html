@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/0f01a771b9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>TO DO</title>
+    <script defer type="module" src="script.js?speed=2"></script>
+  </head>
+  <body>
+    <header><h1>TO DO</h1></header>
+    <form id="form" class="addtask">
+      <input
+        type="text"
+        class="inputtask"
+        minlength="1"
+        maxlength="40"
+        placeholder="Add your new task"
+        required
+      />
+      <button type="submit" class="addtaskbtn">Add</button>
+    </form>
+    <div id="todolist">
+      <section class="todolist-item">
+        <input
+          type="checkbox"
+          class="checkbox"
+          name="a1da0015-05a7-43f9-9f23-747301d957d8"
+        /><label for="a1da0015-05a7-43f9-9f23-747301d957d8"
+          ><input
+            type="text"
+            class="inputfield"
+            value="Example"
+            readonly /></label
+        ><button
+          type="button"
+          class="fa-solid fa-trash-can"
+          id="a1da0015-05a7-43f9-9f23-747301d957d8"
+        ></button>
+      </section>
+    </div>
+  </body>
+</html>
