@@ -87,11 +87,3 @@ const deleteToDoItem = async function (id) {
     console.log(error);
   }
 };
-export {
-  getData,
-  postToDoItem,
-  changeToDoItem,
-  checkToDoItem,
-  unCheckToDoItem,
-  deleteToDoItem,
-};

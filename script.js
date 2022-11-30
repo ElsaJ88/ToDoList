@@ -1,12 +1,3 @@
-import {
-  getData,
-  postToDoItem,
-  changeToDoItem,
-  checkToDoItem,
-  unCheckToDoItem,
-  deleteToDoItem,
-} from "./api-client.js";
-
 //Selectors
 
 const addTaskButton = document.querySelector(".addtaskbtn");
